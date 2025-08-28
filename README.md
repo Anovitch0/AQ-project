@@ -8,5 +8,6 @@
 ```bash
 pip install -e .
 python -m crea_ds deweather   # génère data/processed + figures
-python -m crea_ds energy      # figures énergie
+python -m crea_ds energy 
+python -m crea_ds dashboard     # figures énergie
 ```
