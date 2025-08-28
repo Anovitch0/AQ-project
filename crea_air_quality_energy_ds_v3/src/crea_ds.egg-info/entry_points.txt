@@ -1,0 +1,3 @@
+[console_scripts]
+crea-ds = crea_ds.cli:app
+crea-ds-dashboard = crea_ds.dashboard_entry:main

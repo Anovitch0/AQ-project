@@ -1,0 +1,23 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name="crea-ds"
+version="0.3.0"
+description="CREA AQ deweathering & power-sector CO2 — advanced sample"
+authors=[{name="Candidate", email="candidate@example.com"}]
+requires-python=">=3.9"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "matplotlib>=3.8",
+  "typer>=0.12",
+  "streamlit>=1.36",
+  "Pillow>=10.3",
+]
+
+[project.scripts]
+crea-ds = "crea_ds.cli:app"
+crea-ds-dashboard = "crea_ds.dashboard_entry:main"
